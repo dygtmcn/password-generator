@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate <span id="cut">a random password<span></h1>
+            <h2>Never use an insecure password again.</h2>
+            <button class="generateButton" onclick="generatePasswords()">Generate Passwords</button>
+            <div class="btnContainer">
+                <button class="passButton1" id="firstPass" data-clipboard-action="copy" data-clipboard-target="#firstPass" onclick="message()"></button>
+                <button class="passButton2" id="secondPass" data-clipboard-action="copy" data-clipboard-target="#secondPass" onclick="message()"></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
