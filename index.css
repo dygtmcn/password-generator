@@ -66,6 +66,11 @@ h2{
     border:none;
     border-radius: 6px;
     color: #10B981;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 #secondPass{
@@ -76,4 +81,9 @@ h2{
     border:none;
     border-radius: 6px;
     color: #10B981;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
 }
